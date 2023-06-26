@@ -3,8 +3,7 @@
   connection: local
   roles:
     - demo
-    
-  tasks:
-    - name: Perform a task within the demo role
-      debug:
-        msg: "This is a task within the demo role"   
+
+- name: Perform a task within the demo role
+  debug:
+    msg: "This is a task within the demo role"   
