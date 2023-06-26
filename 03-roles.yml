@@ -2,8 +2,4 @@
   hosts: all
   connection: local
   roles:
-    - demo
-
-- name: Perform a task within the demo role
-  debug:
-    msg: "This is a task within the demo role"   
+    - demo  
