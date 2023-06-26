@@ -16,5 +16,5 @@
       register: out
     - name: print out
       ansible.builtin.debug: 
-      msg: "{{out}}"
+      msg: "{{out.stout}}"
 
