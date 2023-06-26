@@ -1,0 +1,8 @@
+- name: Declare variable at play level
+  hosts: all
+  vars:
+    URL: play.exapmle.com
+  tasks:
+    - name: Access a variable
+      ansoble.builtin.debug:
+         msg: URL == {{URL}}  
