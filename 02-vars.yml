@@ -5,5 +5,5 @@
     URL: play.exapmle.com
   tasks:
     - name: Access a variable
-      ansoble.builtin.debug:
+      ansible.builtin.debug:
          msg: URL == {{URL}}  
