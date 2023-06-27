@@ -11,8 +11,8 @@
 - name: Declare a variable in another file
   hosts: all
   connection: local
-  var_file: 
-    - var.yml
+  vars_file: 
+     - var.yml
   tasks:
     - name: Access a variable
       ansible.builtin.debug:
