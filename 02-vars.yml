@@ -12,7 +12,7 @@
   hosts: all
   connection: local
   vars_file: 
-    - var.yml
+    - vars.yml
   tasks:
     - name: Access a variable
       ansible.builtin.debug:
