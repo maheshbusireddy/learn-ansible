@@ -50,6 +50,9 @@
   tasks:
     - name: run a shell command
       ansible.builtin.shell: uptime
-
+      register: out
+    - name: 
+      ansible.builtin.debug:
+        msg: "{{out}}"  
   
 
